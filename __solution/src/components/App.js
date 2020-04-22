@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import styled from 'styled-components';
 
 import Header from './Header';
-import Home from './Home';
+import Home from './';
 import About from './About';
 import GlobalStyles from './GlobalStyles';
 import ItemDetails from './ItemDetails';
@@ -34,7 +34,7 @@ function App() {
 }
 
 const Wrapper = styled.div`
-  max-width: 800px;
+  max-width: 800px; 
   margin: auto;
 `;
 
